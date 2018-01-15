@@ -283,7 +283,7 @@ function drawCountDown(){
 function drawScore(){
 	ctx.font = '16px Arial';
 	ctx.fillStyle = '#FFF';
-	ctx.fillText('Score: ' + score, 40, 20);
+	ctx.fillText('Score: ' + score, 60, 20);
 }
 
 function timer(){

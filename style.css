@@ -18,6 +18,7 @@ canvas{
 	border: 1px solid black;
 	display: block;
 	background-image: url("canvas-bg.jpeg");
+	cursor: none;
 }
 
 .score_table{
