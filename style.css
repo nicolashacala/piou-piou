@@ -3,8 +3,62 @@
 	padding: 0;
 }
 
+html, body{
+	width: 100%;
+	height: 550px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	background-color: lightgray;
+}
+
 canvas{
-	margin: 40px auto;
+	margin-top: 40px;
+	margin-left: 500px;
 	border: 1px solid black;
 	display: block;
+	background-image: url("canvas-bg.jpeg");
+}
+
+.score_table{
+	display: block;
+	width: 200px;
+	height: 500px;
+	border: 1px solid black;
+	float: left;
+	margin-left: 100px;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.starting_screen{
+	width: 400px;
+	height: 200px;
+	background-color: #FFF;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 200px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding: 15px;
+	display: inline-block;
+}
+.game_rules{
+	width: 100%;
+}
+
+ul{
+	list-style-type: none;
+	display: block;
+	margin-top: 20px;
+}
+
+.start_game_button{
+	clear: both;
+	width: 50%;
+	margin-top: 100px;
 }
