@@ -9,47 +9,44 @@ html, body{
 	font-family: Arial, Helvetica, sans-serif;
 }
 body{
-	background-color: lightgray;
+	background-color: #1b0000;
 }
 
 canvas{
 	margin-top: 40px;
-	margin-left: 500px;
+	float: left;
 	border: 1px solid black;
-	display: block;
-	background-image: url("canvas-bg.jpeg");
+	display: none;
+	background-image: url("pexels-photo.jpg");
 	cursor: none;
+	border-radius: 5px;
 }
 
 .score_table{
+	background-color: #dacf75;
 	display: block;
 	width: 200px;
 	height: 500px;
-	border: 1px solid black;
+	border: 1px solid #000000;
 	float: left;
-	margin-left: 100px;
+	margin-top: 40px;
+	margin-left: 50px;
 	border-radius: 10px;
 	padding: 15px;
 }
 
 .starting_screen{
-	width: 400px;
-	height: 200px;
-	background-color: #FFF;
+	background-color: #b9b858;
+	width: 900px;
+	height: 500px;
+	float: left;
 	border: 1px solid black;
 	border-radius: 10px;
 	text-align: center;
 	vertical-align: middle;
-	position: absolute;
-	top: 200px;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
+	margin-top: 40px;
 	padding: 15px;
-	display: inline-block;
-}
-.game_rules{
-	width: 100%;
+	display: inline;
 }
 
 ul{
@@ -58,8 +55,31 @@ ul{
 	margin-top: 20px;
 }
 
-.start_game_button{
-	clear: both;
+.restarting_screen{
+	background-color: #b9b858;
+	width: 900px;
+	height: 500px;
+	float: left;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 40px;
+	padding: 15px;
+	display: none;
+}
+
+.start_button{
+	border-radius: 50px;
+	background-color: #1b0000;
+	color: #FFF;
+	padding: 40px;
 	width: 50%;
-	margin-top: 100px;
+	margin: 100px auto;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+span{
+	color: red;
 }
